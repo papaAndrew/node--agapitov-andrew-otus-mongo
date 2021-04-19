@@ -1,20 +1,18 @@
 {
   "name": "node--agapitov-andrew-otus-mongo",
-  "version": "1.0.0",
-  "description": "Домашнее задание\r Создание REST API для управления сущностями приложения",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/papaAndrew/node--agapitov-andrew-otus-mongo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/papaAndrew/node--agapitov-andrew-otus-mongo/issues"
-  },
-  "homepage": "https://github.com/papaAndrew/node--agapitov-andrew-otus-mongo#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nconf": "^0.11.2",
+    "winston": "^3.3.3"
+  }
 }
